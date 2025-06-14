@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background : black;
+    height: 100vh;
+    background-image: url("pexels-cottonbro-9665216.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.profile {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.profile > img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid black ;
+    border-radius: 100%;
+}
+
+.profile > p {
+    font-size: 1.8em;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px; 
+}
+
+.link > a {
+
+    text-decoration: none;
+    color: #222;
+    font-size: 24px;
+    text-align: center;
+    border: 3px solid #222;
+    background-color: #fff;
+    border-radius: 7px;
+    margin: 5px 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.link > a:hover {
+    background-color: gray;
+}
+
+.footer {
+    text-align: center;  
+}
+
+.footer > i {
+    color: #fff;
+    font-size: 20px;
+}
